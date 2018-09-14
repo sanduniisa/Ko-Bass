@@ -1,0 +1,148 @@
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 0px;
+  padding-bottom: 50px;
+}
+
+body { 
+  margin: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333333;
+  padding: 3px 10px;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.navbar a.logo {
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #111111;
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #7f858e;
+  color: white;
+}
+
+.rightnav {
+  float: right;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+.stickyfooter {
+  background: #333333;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
+  height: 50px;
+	margin-top: -50px;
+}
+
+
+.footerleft {
+  float: left;
+  padding-left:5px;
+  font-size: 15px;
+}
+.footerright {
+  float: right;
+  padding-right:5px;
+}
+
+.footerright a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333333; 
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 20px 10px 10px;
+  border-radius:5px;
+  width: 200px;
+}
+.center {
+  margin: auto ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  padding-left:35px;
+  border: 2px solid grey;
+  background-color: #c6cbd3;
+  }
+button:hover {
+    background-color: #111111;
+  color: white; }
+
+input[type=text], input[type=password], select {
+  width: 40%;
+  padding: 7px 20px;
+  margin: 8px 12px;
+  box-sizing: border-box;
+  border: 2px solid #8c8585;
+  border-radius: 4px;
+}
+
+.rest {
+  margin: auto ;
+  margin-top: 15px;
+  width: 60%;
+  padding: 10px 10px 10px 50px;
+  text-align: center;
+  background-color: #cbd1db;
+  }

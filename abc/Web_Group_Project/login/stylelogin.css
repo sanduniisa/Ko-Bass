@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+form{
+	margin-left: 38px;
+}
+
+.tbox{
+	width: 320px;
+	height: 420px;
+	background: #222629;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+.paint{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -12%;
+	right: 34%;	
+}
+h1{
+	margin: 0px;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 25px;
+}
+.tbox p{
+	padding: 0px;
+	margin :0px;
+	font-weight: bold;
+}
+.answers
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	width: 90%;
+	color: #fff;
+	font-size:16px;
+	margin-bottom: 20px;
+
+}
+
+.tbox .login {
+		border:none;
+		outline: none;
+		height: 40px;
+		background: #148F77;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 20px;
+		width: 80%;
+		margin-bottom: 20px;
+		margin-left: 0px;
+	}
+.havent{
+	color: #85C1E9;
+}

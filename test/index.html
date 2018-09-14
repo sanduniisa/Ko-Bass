@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> KoBaas</title>
+    <link rel="icon" href="images/logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/bootstrap.css" />
+    <script src="bootstrap/bootstrap.js"></script>
+    <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="images/logo.jpg" height="50px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#!">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#!">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#!">Help</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#!">Sign In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#!">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Image slider-->
+      <div class="card bg-dark text-white">
+        <img class="mySlides card-img" src="images/2.jpg" width="100%px" height="500px">
+        <div class="card-img-overlay">
+            <h5 class="card-title"> කෝ බාස් <br> ශ්රී ලංකාවේ විශාලතම ස්වයංක්රීය තාක්ෂණික සේවා සපයන වෙබ් අඩවිය වෙත සාදරයෙන් පිළිගනිමු! <br>Welcome to Srilankas Largest automated technical service providing website!</h5>
+            <button type="button" style="left:38%" class=" btn btn-light btn-lg  btn-group  mt-3 ml-5 but lg-offset=3" ><a href="form.php">මම සේවාදායකයෙක්</a></button><br><br><br>
+            <button type="button" style="left:43%" class="btn btn-light btn-lg  btn-group  mt-2 but "><a href="worker.php">මම කම්කරුවෙකිS</a></button><br><br><br><br><br><br>
+            <button type="button" style="left:40%" class="btn btn-light btn-lg  btn-group  mt-2 but "><a href="#">Don't you have an account</a></button>
+          </div>
+        <img class="mySlides" src="images/4.jpg"  width="100%px" height="500px">
+        <img class="mySlides" src="images/5.jpg"  width="100%px" height="500px">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+      </script>
+      
+    
+    
+</body>
+</html>
